@@ -1,0 +1,12 @@
+void setLedPins(int mode);
+void playLedCheck();
+void prepareButtons();
+void generateSequence();
+void prepareLeds();
+void simonSays(int round);
+void playerTurn(int round);
+boolean checkPlayerSequence(int round);
+void gameLost();
+void gameWon();
+void initPlayerTurn();
+void readPlayerSequence();
